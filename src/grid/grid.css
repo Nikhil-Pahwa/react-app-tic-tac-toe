@@ -1,5 +1,16 @@
-.grid {
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
     border: 1px solid red;
-    width: 180px;
     margin: 0 auto;
+    max-width: 320px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.status {
+    background-color: green;
 }

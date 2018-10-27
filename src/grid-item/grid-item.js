@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import './grid-item.css';
 
 class GridItem extends React.Component {
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
-            <div class="grid-item"></div>
+            <span className="grid-item" onClick={this.props.onClick}>{this.props.value}</span>
         );
     }
 }

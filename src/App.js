@@ -12,21 +12,6 @@ class App extends Component {
     return ( 
       <div className="App">
         <Grid></Grid>
-        <header className="App-header">
-        {whoCreated}
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React sahi hai 
-          </a>
-        </header>
         <Footer></Footer>
       </div>
     );
