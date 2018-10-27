@@ -37,12 +37,12 @@ class Grid extends React.Component {
             gridItems: gridItems,
             isNextOccuranceIsX: false
         }; 
+        this.winnerPlayerName = <span>&nbsp;</span>;
     }
 
     resetGame() {
         this.loadGame();
         this.setState(this.state);
-        this.winnerPlayerName = null;
     }
 
     renderGridItem(i) {

@@ -4,7 +4,7 @@ import './Footer.css';
 class Footer extends Component {
     render() {
         return ( 
-            <div className="foot"></div>
+            <div className="foot">Developed by Nikhil Pahwa in React!</div>
         );
     }
 }

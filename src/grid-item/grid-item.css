@@ -1,7 +1,18 @@
 .grid-item {
     background-color: gray;
-    border: 1px solid;
+    border: 3px solid #9e9595;
     width: 50px;
-    height: 50px;
+    height: 104px;
     flex: 1;
+    color: #fff;
+    font-size: 4.5em;
 }
+ 
+.grid-item.cross{
+    color: #e37979;
+}
+
+.grid-item.circle{
+    color: #90b39a;
+}
+

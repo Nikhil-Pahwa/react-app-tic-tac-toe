@@ -6,8 +6,9 @@ class GridItem extends React.Component {
         super(props);
     }
     render() {
+       var cssClasses = (this.props.value === 'X') ? 'grid-item cross': 'grid-item circle';  
         return (
-            <span className="grid-item" onClick={this.props.onClick}>{this.props.value}</span>
+            <span className={cssClasses} onClick={this.props.onClick}>{this.props.value}</span>
         );
     }
 }
